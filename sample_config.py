@@ -39,7 +39,7 @@ else:
     GBAN_LOG_GROUP_ID = -1001726870449
     MESSAGE_DUMP_CHAT = -1001726870449
     WELCOME_DELAY_KICK_SEC = 300
-    MONGO_URL = "mongodb+srv://username:password@cluster0.ksiis.mongodb.net/YourDataBaseName?retryWrites=true&w=majority"
+    MONGO_URL = "mongodb://mongo:LOEgdfz9JY11BRbH9E89@containers-us-west-24.railway.app:5949"
     ARQ_API_KEY = "SPGHHO-JIWZUR-KEQPQU-ZJFQFT-ARQ"
     ARQ_API_URL = "https://thearq.tech"
     LOG_MENTIONS = True
