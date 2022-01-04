@@ -35,7 +35,7 @@ else:
         1511373882,
         163494588,
     ]  # Sudo users have full access to everything, don't trust anyone
-    LOG_GROUP_ID = -1001726870449
+    LOG_GROUP_ID = 724778836
     GBAN_LOG_GROUP_ID = -1001726870449
     MESSAGE_DUMP_CHAT = -1001726870449
     WELCOME_DELAY_KICK_SEC = 300
