@@ -9,9 +9,9 @@ HEROKU = (
 
 if HEROKU:
 
-    BOT_TOKEN = environ.get("BOT_TOKEN", None)
-    API_ID = int(environ.get("API_ID", 6))
-    API_HASH = environ.get("API_HASH", "eb06d4abfb49dc3eeb1aeb98ae0f581e")
+    BOT_TOKEN = environ.get("5014285587:AAHv95jed8jrvwDgLOEvQUSfAdgod7EKjCE", None)
+    API_ID = int(environ.get("API_ID", 18622297))
+    API_HASH = environ.get("API_HASH", "27e6993af0786f66f96599db6cd10bcc")
     SESSION_STRING = environ.get("SESSION_STRING", None)
     USERBOT_PREFIX = environ.get("USERBOT_PREFIX", ".")
     SUDO_USERS_ID = [int(x) for x in environ.get("SUDO_USERS_ID", "").split()]
