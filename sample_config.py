@@ -20,7 +20,7 @@ if HEROKU:
     MESSAGE_DUMP_CHAT = int(environ.get("MESSAGE_DUMP_CHAT", -1001726870449))
     WELCOME_DELAY_KICK_SEC = int(environ.get("WELCOME_DELAY_KICK_SEC", 30))
     MONGO_URL = environ.get("MONGO_URL", "mongodb://mongo:LOEgdfz9JY11BRbH9E89@containers-us-west-24.railway.app:5949")
-    ARQ_API_URL = environ.get("ARQ_API_URL", None)
+    ARQ_API_URL = environ.get("ARQ_API_URL", https://thearq.tech/)
     ARQ_API_KEY = environ.get("ARQ_API_KEY", "SPGHHO-JIWZUR-KEQPQU-ZJFQFT-ARQ")
     LOG_MENTIONS = bool(int(environ.get("LOG_MENTIONS", -1001726870449)))
     RSS_DELAY = int(environ.get("RSS_DELAY", 300))
