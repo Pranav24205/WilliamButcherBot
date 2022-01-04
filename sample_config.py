@@ -24,7 +24,7 @@ if HEROKU:
     ARQ_API_KEY = environ.get("ARQ_API_KEY", "SPGHHO-JIWZUR-KEQPQU-ZJFQFT-ARQ")
     LOG_MENTIONS = bool(int(environ.get("LOG_MENTIONS", -1001726870449)))
     RSS_DELAY = int(environ.get("RSS_DELAY", 300))
-    PM_PERMIT = bool(int(environ.get("PM_PERMIT", None)))
+    PM_PERMIT = bool(int(environ.get("PM_PERMIT", True)))
 else:
     BOT_TOKEN = "467677575:YZfaakjwd545dfg-N6JStihhuw5gQeZHntc"
     API_ID = 123456
